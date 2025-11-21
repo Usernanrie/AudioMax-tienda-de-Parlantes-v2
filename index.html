@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - AudioMax</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="js/sesion.js" defer></script>
+</head>
+<body>
+<div class="login-container">
+
+    <h2>Inicio de Sesión</h2>
+    <p>Ingresa tus credenciales para acceder a tu cuenta</p>
+
+    <form id="loginForm">
+        <label for="user">Correo o Usuario</label>
+        <input type="text" id="user" placeholder="Correo o nombre de usuario" required>
+
+        <label for="pass">Contraseña</label>
+        <input type="password" id="pass" placeholder="Contraseña" required>
+
+        <button type="submit">Ingresar</button>
+
+        <p class="login-link">¿No tienes cuenta? <a href="pages/registro.html">Regístrate aquí</a></p>
+    </form>
+
+    <p id="loginMessage" class="error-message"></p>
+</div>
+</body>
+</html>
